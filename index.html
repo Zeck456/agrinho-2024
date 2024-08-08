@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2024</title>
+    <meta name="author" content="Luiz Henrique Slusarz">
+    <meta property="og:title" content="Projeto Agrinho - Agrinho 2024">
+    <link rel="shortcut icon" href="assets/images/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho" class="cabecalho">
+        <img src="assets/images/logo.png" alt="Logo do Agrinho">
+        <h1 class="cabecalho-titulo">Tecnologia Nos Campos Agrícolas </h1>
+        <nav class="cabecalho-nav">
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item"><a href="#inicio">Início</a></li>
+            </ul>
+        </nav>
+        <button class="nav-button" onclick="openNav()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+    </header>
+    
+    <div id="myNav" class="sobreposto">
+        <a href="javascript:void(0)" class="fechar-botao" onclick="closeNav()">&times;</a>
+        <div class="sobreposto-conteudo">
+            <a href="#inicio" onclick="closeNav()">Início</a>
+        </div>
+    </div>
+    
+    <main>
+        <section class="sugestao-sessao" id="inicio">
+            <section class="imagem-fundo">
+                <div class="imagem-camada camada1"></div>
+            </section>                      
+            <section class="sobre">
+                <div class="caixa-principal">
+                    <h1 class="titulo-principal">Tecnologia nos Campos Agrícolas: Transformando o Futuro!</h1>
+                    <h2 class="subtitulo">Como a Tecnologia Está Revolucionando a Agricultura?</h2>
+                    <p class="texto">A tecnologia está transformando a agricultura ao permitir uma gestão mais eficiente dos recursos. O uso de softwares avançados, sensores e drones ajuda a monitorar as culturas, otimizar o uso de água e fertilizantes, e reduzir o impacto ambiental. Com isso, é possível obter uma produção mais sustentável e com menor impacto no meio ambiente.</p>
+                    <h3 class="subtitulo">Quais são os benefícios da tecnologia no campo?</h3>
+                    <ul class="lista-beneficios">
+                        <li class="item-beneficio">Aumentar a produtividade: Utilize tecnologias modernas para melhorar a eficiência das suas colheitas e maximizar os rendimentos.</li>
+                        <li class="item-beneficio">Economizar recursos: Reduza o uso de água, fertilizantes e pesticidas com soluções tecnológicas que permitem uma aplicação mais precisa.</li>
+                        <li class="item-beneficio">Melhorar a sustentabilidade: Diminua o impacto ambiental das suas práticas agrícolas, contribuindo para um futuro mais verde.</li>
+                        <li class="item-beneficio">Acesso a dados em tempo real: Monitore a saúde das suas plantas e as condições climáticas para tomar decisões mais informadas e rápidas.</li>
+                    </ul>
+                </div>
+                <p class="subtitulo">Quer saber mais sobre como implementar essas tecnologias na sua propriedade? Confira nossas dicas e recursos!</p>
+            </section>                 
+        </section>
+             
+            <article id="sugestao">
+                <h2 class="sugestao-cta">Mais sobre o assunto</h2>
+                <div class="sugestao-grid">
+                    <div class="sugestao-card">
+                        <a href="https://www.totvs.com/blog/gestao-agricola/tecnologia-na-agricultura/#:~:text=Os%20dispositivos%20m%C3%B3veis%2C%20como%20smartphones,as%20atividades%20realizadas%20no%20campo.">
+                            <figure>
+                                <img src="assets/images/tots3.jpg" alt="Imagem totvs">
+                            </figure>
+                            <div class="sugestao-card-descricao">
+                                <button>Ver Mais</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <footer class="rodape">
+        <div class="caixa">
+            <p class="creditos">
+                Desenvolvido por <a href="https://github.com/Zeck456" target="_blank" rel="noopener noreferrer">Luiz Henrique Slusarz</a>, Orientado por <a href="https://www.linkedin.com/in/felipe-carusoo/" target="_blank" rel="noopener noreferrer">Felipe Caruso</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
