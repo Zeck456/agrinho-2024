@@ -6,7 +6,7 @@
   </ul>
 </nav>
 # agrinho-2024
-<img src="" alt="foto do projeto">
+<img src="assets/images/Meu-site-agrinho.png" alt="foto do projeto">
 
 
 
